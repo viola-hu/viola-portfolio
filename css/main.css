@@ -1,0 +1,161 @@
+/*Container Styles ========== */
+
+body {
+  background-color: #383C3F;
+}
+
+nav {
+  background-color: #333;
+  border: 1px solid black;
+  padding-bottom: .5rem;
+}
+
+nav.navbar-default {
+  border-color: #373737;
+  background-color:#373737;
+  padding-bottom:2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    border-bottom: 2px solid gray;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+#home {
+  padding-top: 7em;
+  padding-bottom: 7em;
+  background-image: url('https://s3.postimg.org/pgomjz0dv/footer_lodyas.png');
+  color: white;
+  /*https://s3.postimg.org/pgomjz0dv/footer_lodyas.png*/
+}
+
+#about {
+  border: 10px 0 10px 0 solid #333333;
+  padding: 4em 0 2em 0;
+  background-image: url("https://s27.postimg.org/aojyg3mjn/stardust_2_X.png");
+  color: white;
+  font-size: 18px;
+  /*https://s14.postimg.org/as3xngp0h/stardust_2_X.png*/
+  /*https://s3.postimg.org/pgomjz0dv/footer_lodyas.png*/
+}
+
+#portfolio {
+  padding: 4em 0 7em 0;
+  background-image: url('https://s3.postimg.org/pgomjz0dv/footer_lodyas.png');
+  background-color: #565E65;
+  z-index: 999;
+  color: white;
+}
+
+#contact {
+  color: white;
+  padding: 3em 0;
+}
+
+footer {
+  background-color: #383C3F;
+  color: white;
+  padding: 2em 5em;
+  text-align:center;
+}
+/*Styles for 'home' ========= */
+
+#home ul {
+  padding-top: 1em;
+}
+
+#home ul a {
+  color: white;
+}
+
+#home ul li a:hover {
+  display: inline-block;
+  color: #2e9cd6;
+  position: relative;
+  top: -5px;
+}
+
+#home ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+#home ul li:first-child {
+  display: inline-block;
+  padding: 1em 1.5em 1em 0;
+}
+
+.jumbotron {
+  margin-bottom: 0em;
+}
+/*Styles for 'about' ============ */
+
+#about img {
+  position: relative;
+  bottom: -2em;
+}
+/*Styles for 'portfolio' ======== */
+
+div.portfolio-entries {
+  padding-top: 5em;
+}
+
+div.portfolio-entries a {
+  color: white;
+}
+
+div.portfolio-entries a:hover {
+  position: relative;
+  top: -1em;
+  opacity: .60;
+}
+
+#portfolio div.caption {
+  display: block;
+  padding: 1.25em 0 .75em 0;
+  background-color: #414141;
+}
+/*Styles for 'contact' =========== */
+
+#contact ul a {
+  color: white;
+}
+
+#contact ul li a:hover {
+  display: inline-block;
+  color: #2e9cd6;
+  position: relative;
+  top: -5px;
+}
+
+#contact ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+#contact ul li:first-child {
+  display: inline-block;
+  padding: 1em 1.5em 1em 0;
+}
+/*Styles for Navbar ============= */
+
+.navbar-brand img {
+  display: inline-block;
+  position: relative;
+  top: -.65em;
+}
+
+.navbar-brand p {
+  display: inline-block;
+  position: relative;
+  top: -.50em;
+  padding-left: 1em;
+}
