@@ -3,10 +3,48 @@
 }
 
 
-.yellowgreen-section{
+.background{
   background-color:#f8f9fa;
 }
 
 #footer-section{
   padding:50px 0;
+}
+
+
+.portfolio-section{
+  background-color: rgba(45, 45, 60, 0.9);
+  color:silver;
+}
+
+.proj-name{
+  color:silver;
+  text-align: center;
+}
+
+.view-resume, .source-code{
+  color:silver;
+}
+
+p.drop-cap::first-letter {
+  font-size: 150%;
+}
+
+#cool-features{
+  color:grey;
+  font-weight: 500;
+}
+
+.font-color-grey{
+  color:grey;
+}
+
+.devicon-size{
+  font-size:4rem;
+}
+.devicon-size2{
+  font-size:3rem;
+}
+.job-title{
+  font-weight: 500;
 }
