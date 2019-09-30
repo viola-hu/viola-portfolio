@@ -1,5 +1,3 @@
-console.log(`Thanks for visiting Viola's portfolio! Please feel free to reach out at +61451154026 / contact@violahu.com to have a chat! Cheers! :) `);
-
 $(function() {
 
   "use strict";
@@ -905,3 +903,6 @@ $(function() {
   });
 
 });
+
+
+console.log(`Thanks for visiting Viola's portfolio! Please feel free to reach out at +61451154026 / contact@violahu.com to have a chat! Cheers! :) `);
