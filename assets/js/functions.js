@@ -1,3 +1,5 @@
+console.log(`Thanks for visiting Viola's portfolio! Please feel free to reach out at +61451154026 / contact@violahu.com to have a chat! Cheers! :) `);
+
 $(function() {
 
   "use strict";
@@ -415,7 +417,7 @@ $(function() {
     htmlBody.animate({scrollTop : 0}, 600, "easeInOutQuart");
     return false;
   });
-  
+
 
   /*===============================================
     Portfolio
@@ -447,7 +449,7 @@ $(function() {
     var $defaults = {
       rewind: true,
       navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
-      autoHeight: true, 
+      autoHeight: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true
     }
@@ -548,7 +550,7 @@ $(function() {
       itemSelector: '.masonry-item'
     });
   });
-  
+
 
   /*===============================================
     Magnific Popup
@@ -561,7 +563,7 @@ $(function() {
       type: 'image',
       fixedContentPos: false,
       removalDelay: 200,
-      closeOnContentClick: true, 
+      closeOnContentClick: true,
       image: {
         titleSrc: 'data-image-title'
       }
@@ -709,13 +711,13 @@ $(function() {
     if ($this.parents(".accordion").find("li").hasClass("active")) {
       var accordionActiveContent = $this.parents(".accordion").find("li.active").children(".accordion-content");
       var accordionHeight = accordionActiveContent.prop("scrollHeight");
-      
+
       accordionActiveContent.css({'max-height': accordionHeight + "px"});
     }
 
   });
 
-  
+
   /*===============================================
     Counter
   ===============================================*/
@@ -732,7 +734,7 @@ $(function() {
           }
       });
     });
-    
+
   },{accX: 0, accY: -10});
 
 
@@ -786,7 +788,7 @@ $(function() {
 
   createAccountToggle.on("click", function() {
     var c = $(".create-account-box");
-    
+
     if (createAccountToggle.is(":checked")) {
       c.addClass("create-account-box-show");
     }
@@ -821,7 +823,7 @@ $(function() {
         }
       });
     });
-    
+
   },{accX: 0, accY: -10});
 
 
